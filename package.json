@@ -1,6 +1,6 @@
 {
-  "name": "cassini",
-  "version": "0.1.7",
+  "name": "@mrmakeit/cassini",
+  "version": "0.1.8",
   "description": "single-page documentation generation (based on underscore.js documentation formatting) for multi-versioned apps",
   "main": "src/cassini.js",
   "scripts": {
@@ -8,17 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/atuttle/cassini.git"
+    "url": "git://github.com/mrmakeit/cassini.git"
   },
   "keywords": [
     "documentation",
     "generator",
     "markdown"
   ],
-  "author": "Adam Tuttle (adam@fusiongrokker.com)",
+  "author": [
+    "Adam Tuttle (adam@fusiongrokker.com)",
+    "Blixa Morgan <MrMakeIt> (blixa@projectmakeit.com)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atuttle/cassini/issues"
+    "url": "https://github.com/mrmakeit/cassini/issues"
   },
   "bin": {
     "cassini": "./bin/cassini"
@@ -26,8 +29,8 @@
   "dependencies": {
     "wrench": "~1.5.1",
     "commander": "~2.0.0",
-    "handlebars": "~1.0.12",
-    "marked": "~0.2.9",
+    "handlebars": "~4.0.0",
+    "marked": "~0.3.4",
     "underscore": "~1.5.1",
     "highlight.js": "~7.3.0",
     "cheerio": "~0.12.1"
